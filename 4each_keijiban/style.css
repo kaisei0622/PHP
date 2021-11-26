@@ -1,0 +1,137 @@
+body {
+    font-family: "Hiragino Koku Gothic ProN", "メイリオ", sans-serif;
+}
+
+header {
+    width: 100%;
+}
+
+img {
+    width: 350px;
+}
+
+.nav {
+    height: 60px;
+    background-color: black;
+}
+
+header ul {
+    list-style-type: none;
+    line-height: 60px;
+}
+
+header ul li {
+    float: left;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: white;
+}
+
+.left {
+    text-align: left;
+    margin-bottom: 60px;
+    float: left;
+    width: 70%;
+    height: 50%;
+    padding-right: 50px;
+
+}
+
+.left h2 {
+    border-bottom: double 1px black;
+    margin-top: -2px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+
+
+.kiji {
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+    width: 100%;
+}
+
+.kiji h3 {
+    border-bottom: solid 2px lightgray;
+}
+.contents {
+    margin:5px;
+    padding-bottom: 5px;
+}
+
+.handlename {
+    font-size: 12px;
+}
+
+.right {
+    margin-left: 10px;
+    float: left;
+    width: 20%;
+
+}
+
+.right ul {
+    border-top: dotted 1px black;
+    list-style-type: none;
+    margin-left: -35px;
+    margin-top: -10px;
+    line-height: 30px;
+}
+
+form h3 {
+  
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-left: 2px red solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    width: 200px;
+    font-size: 20px;
+    text-align: left;
+}
+
+form {
+    margin: 40px;
+    background-color: #fbfbfb;
+    border: 3px #ebebeb solid;
+    width: 900px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+
+form div {
+    padding: 15px;
+}
+
+.text,
+textarea,
+.dropdown {
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+    color: #999;
+    background: #fff;
+}
+
+.submit {
+    border: 1px solid lightgray;
+    padding: 4px 10px;
+    color: white;
+    background-color: #bfbfbf;
+    border-radius: 5px;
+    border-bottom: solid 2px gray;
+}
+footer {
+    clear: left;
+    margin-top: 60px;
+    width: 100%;
+    height:60px;
+    background-color: black;
+    color: white;
+    text-align: left;
+    line-height: 60px;
+    text-align: center;
+}
